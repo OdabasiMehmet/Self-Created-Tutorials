@@ -1,15 +1,6 @@
 ## How to Create an ec2 instance with using Cloudforma tion service
 
-## First Option
-
-1. Open VSCode and create new file with yaml or yml extension
-2. Open Google and serach for Cloudformation template anatomy
-3. Click and go to the aws website  link from the seearch result
-4. Copy the YAML template
-5. Paste it to the newly created file
-6. Fill the form and remove unnecessary parts.
-
-## Second Option (By using Cloudformation snippet and CloudFormation linter)
+## First Option (By using Cloudformation snippet and CloudFormation linter)
 
 1. Open VSCode and create new file with yaml or yml extension
 2. Write cfn in the newly created yaml file
@@ -31,3 +22,18 @@ on the console and enter its name. Do not forget to add inbound rule for ssh con
 16. Upload the yaml file that you created
 17. Give your stack a anme and choose next to go with default options
 18. Click on create stack at the end and you are done
+
+## Second Option
+
+1. Open VSCode and create new file with yaml or yml extension
+2. Open Google and serach for Cloudformation template anatomy
+3. Click and go to the aws website  link from the seearch result
+4. Copy the YAML template
+5. Paste it to the newly created file
+6. Fill the form and remove unnecessary parts.
+7. Save the file
+8. Go to Cloudformation service
+9. Create a stack
+10. Upload the yaml file that you created
+11. Give your stack a anme and choose next to go with default options
+12. Click on create stack at the end and you are done
