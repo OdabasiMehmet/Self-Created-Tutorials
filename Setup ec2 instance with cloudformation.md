@@ -1,4 +1,4 @@
-## How to Create an ec2 instance with using Cloudforma tion service
+## How to Create an ec2 instance with using Cloudformation service
 
 ## First Option (By using Cloudformation snippet and CloudFormation linter)
 
