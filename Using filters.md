@@ -1,4 +1,4 @@
-# How to Use Filters 
+# How to Use Filters Hands On study
 **cat**
 
 1. mkdir filters
