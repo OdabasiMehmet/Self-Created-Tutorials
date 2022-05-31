@@ -39,3 +39,29 @@ Default region name [None]:
 ```bash
 Default output format [None]:
 ```
+
+# PART 3 INSTALLING AWS CLI ON EC2 
+
+1. Check whether you have pre-installed aws on your system
+```bash
+aws --version
+```
+2. If you have Version 1 installed, you must uninstall it to install the version 2.
+
+```bash
+sudo yum remove awscli -y
+```
+3. Download aws cli by using curl command
+
+```bash
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+```
+4. Unzip the file contents
+
+```bash
+unzip awscliv2.zip 
+```
+5. Install the cli
+```bash
+sudo ./aws/install
+```
